@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: bhasha-translator
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT --workers 2 --timeout 120
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false          # Set manually in Render dashboard
+      - key: DEFAULT_TARGET_LANG
+        value: hi
+      - key: DEFAULT_DOMAIN
+        value: casual
+      - key: PYTHONUTF8
+        value: "1"
+      - key: PYTHONIOENCODING
+        value: utf-8
+    disk:
+      name: sessions-data
+      mountPath: /data
+      sizeGB: 1

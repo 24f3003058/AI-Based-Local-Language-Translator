@@ -1,0 +1,82 @@
+{
+  "languages": [
+    {
+      "code": "hi",
+      "name": "Hindi",
+      "script": "Devanagari",
+      "aliases": ["hindi", "hin"],
+      "langdetect_code": "hi"
+    },
+    {
+      "code": "ta",
+      "name": "Tamil",
+      "script": "Tamil",
+      "aliases": ["tamil", "tam"],
+      "langdetect_code": "ta"
+    },
+    {
+      "code": "bn",
+      "name": "Bengali",
+      "script": "Bengali",
+      "aliases": ["bengali", "bangla", "ben"],
+      "langdetect_code": "bn"
+    },
+    {
+      "code": "te",
+      "name": "Telugu",
+      "script": "Telugu",
+      "aliases": ["telugu", "tel"],
+      "langdetect_code": "te"
+    },
+    {
+      "code": "mr",
+      "name": "Marathi",
+      "script": "Devanagari",
+      "aliases": ["marathi", "mar"],
+      "langdetect_code": "mr"
+    },
+    {
+      "code": "gu",
+      "name": "Gujarati",
+      "script": "Gujarati",
+      "aliases": ["gujarati", "guj"],
+      "langdetect_code": "gu"
+    },
+    {
+      "code": "kn",
+      "name": "Kannada",
+      "script": "Kannada",
+      "aliases": ["kannada", "kan"],
+      "langdetect_code": "kn"
+    },
+    {
+      "code": "ml",
+      "name": "Malayalam",
+      "script": "Malayalam",
+      "aliases": ["malayalam", "mal"],
+      "langdetect_code": "ml"
+    },
+    {
+      "code": "pa",
+      "name": "Punjabi",
+      "script": "Gurmukhi",
+      "aliases": ["punjabi", "panjabi", "pan"],
+      "langdetect_code": "pa"
+    },
+    {
+      "code": "or",
+      "name": "Odia",
+      "script": "Odia",
+      "aliases": ["odia", "oriya", "ori"],
+      "langdetect_code": "or"
+    },
+    {
+      "code": "en",
+      "name": "English",
+      "script": "Latin",
+      "aliases": ["english", "eng"],
+      "langdetect_code": "en"
+    }
+  ],
+  "domains": ["casual", "medical", "legal", "technical", "religious"]
+}
